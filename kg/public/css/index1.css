@@ -1,0 +1,447 @@
+*{margin: 0px;padding: 0px;}
+html,body{height: 100%;}
+/* .container{width: 95%;} */
+a{text-decoration: none;color: #fff;}
+a:hover{text-decoration: none;color: #ddd;}
+
+
+/* 通用样式 */
+div{
+/* 	border:1px solid red; */
+}
+header{
+	width:100%;
+	background:black;
+}
+section{
+	position:relative;
+}
+/* 导航栏 */
+header>.row{
+	width:100%;
+}
+header>.row>div{
+	/* padding:0px; */
+}
+header>.ct>div>a{
+	color:#fff;
+	padding:15px;
+}
+header>.ct{
+	height:100%;
+}
+header>.ct>div>a:hover{
+	color:#ddd;
+}
+header>.ct>div>span:hover{
+	color:#ddd;
+}
+header>.ct>div>a>span:hover{
+	color:#ddd;
+}
+header>.ct>div{
+	text-align: center;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 导航栏 */
+.dhl{
+	font-size:22px;
+	z-index: 1001;
+	border-top:1px solid #222;
+	display:none;
+}
+.dhl span{
+	color:#fff;
+}
+.dl_ss{
+	border-bottom: 1px solid #222;
+	border-top:1px solid #222;
+}
+.dl_ss>div{
+	border-left:1px solid #222;
+}
+.dhl span:hover{
+	color:#ddd;
+}
+/* 搜索 */
+#search{
+	position:absolute;
+	height:50px;
+	background:#000;
+	border:1px solid #222;
+	z-index:1001;
+}
+#search>input{
+	width:100%;
+	background:#000;
+	height:100%;
+	border:0px;
+}
+/* 购物车 */
+.buycar{
+	transition: all .3s ease-in-out;
+	position:fixed;
+	width:0;
+	height:100vh;
+	right:0;
+	top: 0;
+	background:#fff;
+	z-index: 1003;
+}
+.Mask{
+	position: fixed;
+	transition: all .3s ease-in-out;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	opacity: 0;
+	z-index: -99;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.Mask.on{opacity: 1;z-index: 1002;}
+#buycar{
+	overflow:hidden;
+}
+#buycar>div{
+	border-bottom:1px solid #ddd;
+}
+#buycar .row .col-7 a{
+	color:#000;
+}
+.bc_title{
+	padding:10px;
+}
+#buycar .col-7{
+	padding-top:10px;
+}
+#buycar .col-7>a{
+	padding-right:80px;
+}
+#buycar .col-2{
+	padding-top:10px;
+}
+#bcp{
+	padding:10px;
+}
+#bcp>img{
+	width:120px;
+}
+.price{
+	padding:10px;
+}
+.price:last-child>p{
+	position:relative;
+	float:right;
+}
+#buycar button{
+	width:90%;
+}
+/* 轮播图 */
+#demo{
+	position:relative;
+	padding:14px;
+}
+#demo>div>div>img{
+	width:100%;
+}
+#demo>a{
+	background:rgba(0,0,0,0.5);
+	width:3%;
+	height:20%;
+	border-radius:5px;
+	top:40%;
+}
+#demo>.carousel-control-prev{
+	left:15px;
+}
+#demo>.carousel-control-next{
+	right:15px;
+}
+/* 商品展示 */
+.commodity{
+	width:100%;
+	margin:0px;
+	border:7px solid white;
+	position:relative;
+}
+.commodity>div{
+	padding:0px;
+}
+#p1{
+	background:url(../img/front-cw_arctis-pro-001.png__1920x600_q100_crop-scale_optimize_subsampling-2.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+#p2{
+	background: url(../img/r650_front_page_001.jpg__1920x600_q100_crop-scale_optimize_subsampling-2.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+#p3{
+	background:url(../img/arctis7_frontpage_001.jpg__1920x600_q100_crop-scale_optimize_subsampling-2.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+#p4{
+	background:url(../img/frontpage_arctis_gamedac_banner__pubg__002.jpg__1920x600_q100_crop-scale_optimize_subsampling-2.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+#p5{
+	background:url(../img/csgo_frontpage_plus-howl_02.jpg__1920x600_q100_crop-scale_optimize_subsampling-2.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:auto 650px;
+}
+#p6{
+	background:url(../img/r710_front_page_001.jpg__1920x600_q100_crop-scale_optimize_subsampling-2.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+.c1{
+	width:100%;
+	overflow:hidden;
+	border:7px solid white;
+	height:600px;
+	padding:20px;
+}
+.c1>:first-child{
+	font-family: Replica Pro,Helvetica,Arial,sans-serif;
+  font-weight: 900;
+	color:white;
+}
+.c1>:nth-child(2) {
+	font-family: Replica Pro,Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	color:white;
+}
+.c1>:last-child{
+	width:118px;
+	height:46px;
+}
+#follow{
+	width:100%;
+}
+#follow>div{
+	padding:15px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+/* 页尾 */
+footer{
+	position:absolute;
+	width:100%;
+	background:black;
+	text-align: center;
+}
+footer h5{
+	color:#fff;
+	padding:15px;
+}
+div>ul>a>li{
+	list-style:none;
+	padding:5px;
+	color:#aaa;
+}
+div>ul>a>li:hover{
+	color:#fff;
+}
+#ipc>a>p{
+	color:#aaa;
+}
+/* pc>1200 */
+@media screen and (min-width:1200px){
+	header{
+		height:80px;
+	}
+	#fewer{
+		display: none;
+	}
+	.dhl{
+		display:none;
+	}
+	.buycar.on{width:600px;}
+	.iconfont{
+		font-size:26px;
+		padding:14px;
+		color: #fff;
+		cursor: pointer;
+	}
+	#search{
+		width:450px;
+		right:5%;
+		display: none;
+	}
+	header>.ct>div>a{
+		line-height:80px;
+	}
+	header>.ct>div>span{
+		line-height:80px;
+		padding:29px;
+	}
+	.c1>:first-child{
+		font-size: 3.2rem;
+	}
+	.c1>:nth-child(2){
+		font-size: 1.6rem;
+	}
+	.c1>:last-child{
+		font-size:0.9rem;
+	}
+	footer{
+		height:350px;
+	}
+}
+
+/* pc */
+@media screen and (max-width:1199px) and (min-width:992px){
+	header{
+		height:80px;
+	}
+	#fewer{
+		display: none;
+	}
+	.dhl{
+		display: none;
+	}
+	.buycar.on{width:600px;}
+	.iconfont{
+		font-size:26px;
+		padding:5px;
+	}
+	#search{
+		width:450px;
+		right:5%;
+		display: none;
+	}
+	header>.ct>div>a{
+		line-height:80px;
+	}
+	header>.ct>div>span{
+		line-height:80px;
+		color:#fff;
+		padding:20px;
+	}
+	.c1>:first-child{
+		font-size: 2.6rem;
+	}
+	.c1>:nth-child(2){
+		font-size: 1.3rem;
+	}
+	.c1>:last-child{
+		font-size:0.9rem;
+	}
+	footer{
+		height:350px;
+	}
+}
+
+/* pad */
+@media screen and (max-width:991px) and (min-width:768px){
+	header{
+		height:80px;
+	}
+	.iconfont{
+		font-size:24px;
+	}
+	.icon{
+		height:80px;
+	}
+	.dl_ss{
+		display:none;
+	}
+	#search{
+		width:100%;
+		height:40px;
+		display: none;
+	}
+	.icon{
+		padding:0px;
+	}
+	.buycar.on{width:600px;}
+	header>.ct>div>a{
+		line-height:80px;
+		padding:30px;
+	}
+	header>.ct>div>span{
+		line-height:80px;
+		color:#fff;
+		padding:30px;
+	}
+	header>.ct>.col-lg-6{
+		display:none;
+	}
+	.c1>:first-child{
+		font-size: 2.1rem;
+	}
+	.c1>:nth-child(2){
+		font-size: 1.2rem;
+	}
+	.c1>:last-child{
+		font-size:0.9rem;
+	}
+	footer{
+		height:700px;
+	}
+}
+
+/* phone */
+@media screen and (max-width:767px){
+	header{
+		height:80px;
+	}
+	.iconfont{
+		font-size:24px;
+	}
+	.icon{
+		height:80px;
+	}
+	.buycar.on{width:100%;}
+	#search{
+		width:100%;
+		height:40px;
+		display: none;
+	}
+	.icon>:first-child{
+		display:none;
+	}
+	.icon>:nth-child(2){
+		display:none;
+	}
+	header>.ct>div>a{
+		line-height:80px;
+	}
+	header>.ct>div>span{
+		line-height:80px;
+		color:#fff;
+		padding:48px;
+	}
+	header>.ct>.col-lg-6{
+		display:none;
+	}
+	.c1{
+		height:400px;
+	}
+	#p1,#p2,#p3,#p4,#p6{
+		background-size:auto 400px;
+	}
+	#p5{
+		background-size:767px auto;
+	}
+	.c1>:first-child{
+		font-size: 2.1rem;
+	}
+	.c1>:nth-child(2){
+		font-size: 1.0rem;
+	}
+	.c1>:last-child{
+		font-size:0.9rem;
+	}
+}

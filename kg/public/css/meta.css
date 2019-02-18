@@ -1,0 +1,132 @@
+@media screen and (min-width:480px){
+	.drive_top .driBox{width: 100%;}
+	.drive_top .driBox span{margin-top: 0;}
+	.drive_about h2{font-size: 2rem;}
+	.drive_about .application h1{font-size: 2rem;}
+	.application.opt_2{margin-top: 0;margin-bottom: 10%;}
+	.application.opt{margin-top: 10%;margin-bottom: 20%;}
+	.drive_about .drivabt_Four .driFotTop{width: 80%;}
+	.drive_about .drivabt_Four .driFotTop h1{font-size: 2rem;}
+	.drive_about .Towat ul{width: 100%;}
+	.drive_bom h2{font-size: 2rem;}
+	.drive_bom .bomconta{width: 100%;}
+	.drive_bom .Frt .selection{width: 100%;}
+	.drive_bom .Frt .selection h3{font-size: 1.6rem;}
+	.drive_bom .Frt .selection .list li a{font-size: 1.4rem;}
+	.drive_bom .Frt .selection .list li span{font-size: 1.4rem;}
+	.JouncAbout h2{font-size: 2.5rem;}
+	.JouncAbout .nP{font-size: 1.5rem;}
+	.mou_mainTop h2{font-size: 2.3rem;}
+	.mou_aboutCont h2{font-size: 2.3rem;}
+	.mou_aboutCont .abou_bc a{padding: 1% 10%;}
+	.mou_Bom h2{font-size: 2.2rem;}
+	.publicp{font-size: 12px;}
+	.mou_miaboutBom h2{font-size: 2.3rem;}
+	.mou_miaboutTop h2{font-size: 2.3rem;}
+	.mou_miaboutBom .aot h3{font-size: 2rem;}
+	.mou_miaboutBom .aot p{font-size: 1.7rem;}
+	
+}
+@media screen and (min-width:768px){
+	.drive_about .Towat ul{width: 100%;}
+	.drive_top .driBox{width: 80%;}
+	.drive_top .driBox span{margin-top: 0;}
+	.drive_about .drivabt_Four .driFotTop{width: 90%;margin-top: 0;}
+	.drive_about .drivabt_Four .driFotTop h1{font-size: 2rem;}
+	.drive_about .drivabt_Four .driFotTop a{margin-top: 0;}
+	.drive_bom h2{font-size: 2rem;}
+	.drive_bom .bomconta{width: 80%;}
+	.drive_bom .Frt .selection{width: 80%;}
+	.drive_bom .Frt .selection h3{font-size: 1.7rem;}
+	.drive_bom .Frt .selection .list li span{font-size: 1.2rem;}
+	.drive_bom .Frt .selection .list li a{font-size: 1.2rem;}
+	.drive_about .application h1{font-size: 2rem;}
+	.drive_about .application.opt_2{margin-top: 0;margin-bottom: 10%;}
+	.drive_about .application{margin-top: 10%;}
+	.application.opt{margin-top: 30%;}
+	.CdtAbout .rt .cadlt{padding-left: 5%;}
+	.Cdtmain .Cdtmtop h1{font-size: 2.5rem;}
+	.Cdtmain .Cdtmtop p{font-size: 1.7rem;}
+	.Cdtmain .Cdtmtop .tlp .col-md-4 h3{font-size: 2rem;}
+	.Cdtmain .Cdtmtop .tlp .col-md-4 span{font-size: 1.5rem;}
+	.Cdtmain .Cdtmtloop h1{font-size: 2rem;width: 80%;}
+	.Cdtmain .Cdtmtcont .Cdtmt_op h2{font-size: 2.5rem;}
+	.Cdtmain .Cdtmtwor p{font-size: 1.7rem;}
+	.Cdtmain .Cdtmtcont .Cdtmt_op p{font-size: 1.7rem;}
+	.Cdtmain .Cdtmtkot .Cdtmt_op p{width: 100%;font-size: 1.7rem;}
+	.Cdtmain .CdtmtSeven .sevbox p{width: 80%;font-size: 1.7rem;}
+	.Cdtmain .CdtmtSeven .sevbox h1{font-size: 3rem;}
+	.Cdtmain .Cdtmtgl h2{font-size: 2.5rem;}
+	.Cdtmain .Cdtmtgl p{font-size: 1.7rem;}
+	.Cdtmain .Cdtmtbot h2{font-size: 2.5rem;}
+	.Cdtmain .Cdtmtbot p{font-size: 1.7rem;}
+	.Cdtmain .Cdtmtbot .col-md-12 .Cdtlist{width: 90%;}
+	.CdtmtFoot h2{font-size: 2.5rem;}
+	.CdtmtFoot .Fotfl{width: 90%;}
+	.CdtmtFoot h3{font-size: 2rem;}
+	.CdtmtFoot .Forlt{width: 90%;margin-right: 0;}
+	.JouncAbout h2{font-size: 2.5rem;}
+	.JouncAbout .nP{font-size: 1.7rem;}
+	.mou_mainTop h2{font-size: 2.3rem;}
+	.mou_aboutCont h2{font-size: 2.3rem;}
+	.mou_aboutCont .abou_bc a{padding: 0.5% 7%;}
+	.mou_Bom h2{font-size: 2.5rem;}
+	.mou_miaboutBom h2{font-size: 2.5rem;}
+	.mou_miaboutTop h2{font-size: 2.5rem;}
+	
+	
+}
+
+@media screen and (min-width:992px){
+	.drive_about h2{font-size: 3rem;}
+	.drive_about .application{margin-top: 0;}
+	.drive_about .application.opt{margin-top: 20%;margin-bottom: 0;}
+	.drive_about .drivabt_Four .driFotTop{margin-top: 0;}
+	.drive_bom .bomconta a .dihove p{font-size: 12px;}
+	.drive_bom .bomconta{width: 80%;}
+	.drive_bom .Frt .selection{width: 80%;}
+	.drive_bom .Frt .selection h3{font-size: 1.7rem;}
+	.drive_bom .Frt .selection .list li span{font-size: 1.4rem;}
+	.drive_bom .Frt .selection .list li a{font-size: 1.4rem;}
+	.drive_top .driBox{width: 40%;}
+	.drive_top .driBox span{margin-top: 0;}
+	.drive_about .application.opt_2{margin-bottom: 10%;}
+	.drive_about .drivabt_Four .driFotTop{width: 80%;}
+	.drive_about .drivabt_Four .driFotTop h1{font-size: 2.4rem;}
+	.drive_about .application h1{font-size: 2.5rem;}
+	.drive_bom h2{font-size: 2.5rem;}
+	.drive_about .Towat ul{width: 80%;}
+	.Cdtmain .Cdtmtloop h1{font-size: 2rem;}
+	.Cdtmain .Cdtmtop .tlp .col-md-4 h3{font-size: 2rem;}
+	.Cdtmain .Cdtmtop .tlp .col-md-4 span{font-size: 1.7rem;}
+	.Cdtmain .Cdtmtcont .Cdtmt_op p{width: 100%;}
+	.Cdtmain .Cdtmtwor p{font-size: 1.4rem;}
+	.Cdtmain .CdtmtSeven .sevbox h1{font-size: 2.4rem;}
+	.Cdtmain .CdtmtSeven .sevbox p{font-size: 2rem;}
+	.Cdtmain .Cdtmtgl h2{font-size: 3rem;}
+	.Cdtmain .Cdtmtgl p{font-size: 2rem;}
+	.Cdtmain .Cdtmtbot h2{font-size: 3rem;}
+	.Cdtmain .Cdtmtbot p{font-size: 1.7rem;}
+	.CdtmtFoot h3{font-size: 2.2rem;}
+	.CdtmtFoot p{font-size: 1.5rem;}
+	.CdtAbout .Cdetlirtbom{margin-top: 10%;}
+	.Cdtmain .Cdtmtop h1{font-size: 3rem;}
+	.Cdtmain .Cdtmtop p{font-size: 2rem;}
+	.JouncAbout h2{font-size: 2.5rem;}
+	.JouncAbout .nP{font-size: 1.7rem;}
+	.mou_mainTop h2{font-size: 2.5rem;}
+	.mou_mainCont h2{font-size: 2.5rem;}
+	.mou_aboutCont h2{font-size: 2.5rem;}
+	.mou_aboutCont .abou_bc a{padding: 0.5% 5%;}
+	.mou_aboutCont .abou_bc h3{font-size: 2.5rem;}
+	.mou_Bom h2{font-size: 2.5rem;}
+	.mou_miaboutTop h2{font-size:2.5rem;}
+	.mou_miaboutBom h2{font-size: 2.5rem;}
+}
+
+
+@media screen and (min-width:1200px){
+	
+}
+
+

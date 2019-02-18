@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/bootstrap1.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .usercenter_ul>li{
+            width:100%;
+            text-align: center;
+            font-size: 20px;
+            padding:5px;
+            border-bottom:1px dotted #ccc;
+        }
+        .row>.list{
+            display:none;
+        }
+        .row>div.active{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <!-- 导航栏 -->
+                <div class="ct row">
+                    <div class="col-lg-3 col-sm-6">
+                        
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="">耳机</a>
+                        <a href="">鼠标</a>
+                        <a href="">键盘</a>
+                        <a href="">软件</a>
+                        <a href="">新闻</a>
+                        <a href="">全部商品</a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 icon">
+                        <a href="">
+                            <span class="iconfont">&#xe615;</span>
+                            <span></span>
+                            <span id='uname'></span>
+                            
+                        </a>
+                        <span class="iconfont search_btn">&#xe616;</span>
+                        <span class="iconfont icon-btn">&#xe815;</span>
+                        <span class="iconfont" id="fewer">&#xe6f4;</span>
+                    </div>
+                    <div class="col-12 dhl">
+                        <div class="row dl_ss">
+                            <div class="col-6">
+                                <a href=""><span class="iconfont">&#xe615;</span></a>
+                            </div>
+                            <div class="col-6">
+                                <span class="iconfont search_btn">&#xe616;</span>
+                            </div>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="">耳机</a></li>
+                                <li><a href="">鼠标</a></li>
+                                <li><a href="">键盘</a></li>
+                                <li><a href="">软件</a></li>
+                                <li><a href="">新闻</a></li>
+                                <li><a href="">全部商品</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 搜索 -->
+                <div id="search">
+                    <input type="text" placeholder="Search">
+                </div>
+    </header>
+    <section style='background: #222;'>
+        <div >
+            <div style='text-align:center;border-bottom:20px solid black;padding:5px'>
+                <img src="img/img1.png" alt="">
+            </div>
+        </div>
+        <div class="container" style='background:white; border-bottom:1px solid #222; padding:30px ; padding-bottom :40px;margin-bottom:20px'>
+            <div class="row listrow">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <ul class='usercenter_ul'>
+                        <li id='list1' style='cursor:pointer'>基础信息</li>
+                        <li id='list2'  style='cursor:pointer'>修改密码</li>
+                        <li id='list3' style='cursor: pointer'>收货地址</li>
+                    </ul>
+                </div>
+                <div class="list col-xs-8 col-sm-8 col-md-8 col-lg-8 active">
+                    <h3 style='text-align: center'>基础信息</h3>
+                    <form action="" method="get" role="form" style='width:400px;margin:0 auto ;' >
+                        <div class="form-group">
+                            <label for="">用户名：</label>
+                            <input type="text" autofocus class="form-control " id="" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">邮箱：</label>
+                            <input type="email" class="form-control" id="" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">性别：</label>
+                            <input type="radio" name='sex'>男
+                            <input type="radio" name='sex'>女
+                        </div>
+                        <div class="form-group">
+                            <label for="">真实姓名：</label>
+                            <input type="text" class="form-control" id="" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">手机号：</label>
+                            <input type="phone" class="form-control" id="" placeholder="">
+                        </div>
+                        <button type="submit" class="btn btn-primary " style='width:100%'>提交修改</button>
+                    </form>
+                </div>
+                <div class="list col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <h3 style='text-align: center'>密码修改</h3>
+                    <form action="" method="get" role="form" style='width:400px;margin:0 auto ;' >
+                        <div class="form-group">
+                            <label for="">修改密码：</label>
+                            <input type="password" autofocus class="form-control " id="" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">确认密码：</label>
+                            <input type="password" class="form-control" id="" placeholder="">
+                        </div>
+                        <div class="form-group" style='display:inline-block'>
+                            <label for="">验证码：</label>
+                            <input type="text" class='form-control' placeholder='验证绑定邮箱收到的验证码'>
+                        </div>   
+                        <button class='btn btn-primary'>获取验证码</button>
+                        <button type="submit" class="btn btn-primary " style='width:100%'>提交修改</button>
+                    </form>
+                </div>
+                <div class="list col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                        <h3 style='text-align: center'>收货地址</h3>
+                        <form action="" method="get" role="form" style='width:400px;margin:0 auto ;' >
+                            <div class="form-group">
+                                <label for="">省：</label>
+                                <select name="" id="input" class="form-control">
+                                    <option value="" selected>浙江</option>
+                                    <option value="">上海</option>
+                                    <option value="">江苏</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">市：</label>
+                                <select name="" id="input" class="form-control">
+                                    <option value="" selected>杭州</option>
+                                    <option value="">嘉兴</option>
+                                    <option value="">衢州</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">区：</label>
+                                <select name="" id="input" class="form-control">
+                                    <option value="" selected>西湖区</option>
+                                    <option value="">上城区</option>
+                                    <option value="">下城区</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">详细地址：</label>
+                                <input type="text" class="form-control">
+                            </div>   
+                            <button type="submit" class="btn btn-primary " style='width:100%'>提交</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+			<!-- 页尾 -->
+			<div class="row">
+				<div class="col-lg-4 col-sm-12">
+					<h5>商品</h5>
+					<ul>
+						<a href="">
+							<li>耳机</li>
+						</a>
+						<a href="">
+							<li>鼠标</li>
+						</a>
+						<a href="">
+							<li>键盘</li>
+						</a>
+						<a href="">
+							<li>全部商品</li>
+						</a>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-sm-12">
+					<h5>驱动支持</h5>
+					<ul>
+						<a href="">
+							<li>驱动支持</li>
+						</a>
+						<a href="">
+							<li>条款和政策</li>
+						</a>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-sm-12">
+					<h5>关于我们</h5>
+					<ul>
+						<a href="">
+							<li>微博</li>
+						</a>
+						<a href="">
+							<li>新闻</li>
+						</a>
+						<a href="">
+							<li>推特</li>
+						</a>
+					</ul>
+				</div>
+			</div>
+			<div id="icp">
+				<a href="">
+					<p>沪ICP备1XXXXXXXX号</p>
+				</a>
+			</div>
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+            $('.usercenter_ul').on('click','li',function(e){
+                var id=e.target.id;
+                id=Number(id.split('').splice(4,1).toString())+1
+                $('.listrow').children(`:nth-child(${id})`).addClass('active').siblings().removeClass('active')
+            })
+        </script>
+</body>
+</html>
